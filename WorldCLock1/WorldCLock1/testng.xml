@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+
+<listeners>
+<listener class-name="utility.ExtentReportListener"/>
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestCases.TC_01_UserValidation"/>
+       <class name="TestCases.TC_02_Clockdisplay"/>
+       <class name="TestCases.TC_03_DateTime"/>
+       <class name="TestCases.TC_04_BangaloreTime"/>
+       <class name="TestCases.TC_05_LondonTIme"/>
+       <class name="TestCases.TC_06_NeyworkTime"/>
+       <class name="TestCases.TC_07_Timedifflondon"/>
+       <class name="TestCases.TC_08_Timediffny"/>
+       <class name="TestCases.TC_09_OneCognizant"/>
+       
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
